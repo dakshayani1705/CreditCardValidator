@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit Card Validator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Credit Card Validator</h1>
+
+        <input
+            type="text"
+            id="cardNumber"
+            placeholder="Enter Credit Card Number">
+
+        <div class="buttons">
+            <button class="validate-btn" onclick="validateCard()">
+                Validate
+            </button>
+
+            <button class="clear-btn" onclick="clearHistory()">
+                Clear History
+            </button>
+        </div>
+
+        <div id="result"></div>
+
+        <h2>Validation History</h2>
+        <ul id="history"></ul>
+    </div>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</body>
+</html>
